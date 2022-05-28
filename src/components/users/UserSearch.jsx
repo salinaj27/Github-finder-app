@@ -20,8 +20,6 @@ function UserSearch() {
       dispatch({ type: "SET_LOADING" });
       const users = await searchUsers(text);
       dispatch({ type: "GET_USERS", payload: users });
-      console.log("??????", users);
-
       setText("");
     }
   };
