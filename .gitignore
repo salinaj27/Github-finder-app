@@ -19,7 +19,7 @@
 .env.production.local
 
 # Token
-.env
+.env.local
 
 npm-debug.log*
 yarn-debug.log*
